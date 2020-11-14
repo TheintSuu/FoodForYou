@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activities.CheckoutActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/ivCheckoutShop"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:listitem="@layout/item_checkout_restaturant" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/ivCheckoutFoodItem"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:listitem="@layout/layout_food_item_checkout" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add more Foods"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"
+            android:padding="@dimen/margin_medium"
+            android:textSize="@dimen/text_regular"
+            android:id="@+id/tvRestartantName"
+            />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <TextView
+                android:id="@+id/tvDelivery"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Delivery instructions"
+                android:layout_alignParentLeft="true"
+                android:textStyle="bold"
+                android:padding="@dimen/margin_medium"
+                android:textSize="@dimen/text_regular"
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Add notes"
+                android:layout_toStartOf="@id/ivAddNotes"
+                android:textStyle="bold"
+                android:padding="@dimen/margin_medium"
+                android:textSize="@dimen/text_regular"
+                />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/ivAddNotes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:padding="@dimen/margin_medium"
+                android:src="@drawable/ic_baseline_add_24" />
+            <TextView
+                android:id="@+id/tvSubTotal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Subtotal"
+                android:layout_below="@id/tvDelivery"
+                android:layout_marginTop="@dimen/margin_medium"
+                android:layout_alignStart="@id/tvDelivery"
+                android:textStyle="bold"
+                android:padding="@dimen/margin_medium"
+                android:textSize="@dimen/text_regular"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="$"
+                android:layout_below="@id/tvDelivery"
+                android:layout_marginTop="@dimen/margin_medium"
+                android:layout_toStartOf="@id/tvSubTotalPrice"
+                android:textStyle="bold"
+                android:padding="@dimen/margin_medium"
+                android:textSize="@dimen/text_regular"
+                />
+            <TextView
+                android:id="@+id/tvSubTotalPrice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="64.00"
+                android:layout_below="@id/tvDelivery"
+                android:layout_marginTop="@dimen/margin_medium"
+                android:layout_alignParentRight="true"
+                android:textStyle="bold"
+                android:padding="@dimen/margin_medium"
+                android:textSize="@dimen/text_regular"
+                />
+            <TextView
+                android:id="@+id/tvDeliveryCost"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Delivery Cost"
+                android:layout_below="@id/tvSubTotal"
+                android:layout_marginTop="@dimen/margin_medium"
+                android:layout_alignStart="@id/tvDelivery"
+                android:textStyle="bold"
+                android:padding="@dimen/margin_medium"
+                android:textSize="@dimen/text_regular"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Free"
+                android:layout_below="@id/tvSubTotal"
+                android:layout_marginTop="@dimen/margin_medium"
+                android:layout_alignParentRight="true"
+                android:textStyle="bold"
+                android:padding="@dimen/margin_medium"
+                android:textSize="@dimen/text_regular"
+                />
+            <TextView
+                android:id="@+id/tvPlayTrailer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tvDeliveryCost"
+                android:text="Check Out"
+                android:textStyle="bold"
+                android:textColor="@android:color/white"
+                android:drawablePadding="@dimen/margin_medium"
+                android:paddingTop="@dimen/margin_medium"
+                android:paddingBottom="@dimen/margin_medium"
+                android:paddingStart="@dimen/margin_medium_3"
+                android:paddingEnd="@dimen/margin_medium_3"
+                android:layout_marginStart="@dimen/margin_medium_2"
+                android:layout_marginTop="@dimen/margin_medium_2"
+                android:background="@drawable/rounded_button"/>
+
+
+        </RelativeLayout>
+
+
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,83 @@
+{
+  "project_info": {
+    "project_number": "142982167196",
+    "firebase_url": "https://foodforu-e2385.firebaseio.com",
+    "project_id": "foodforu-e2385",
+    "storage_bucket": "foodforu-e2385.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:142982167196:android:c4e549cf0a99c02944cb59",
+        "android_client_info": {
+          "package_name": "com.theintsuhtwe.foodforu"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "142982167196-ns6si6974glijtg3v1785p0ff1iem7jo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAG2zP6LKY_WvpB6G7poc3TuyvYBZz-TO0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "142982167196-ns6si6974glijtg3v1785p0ff1iem7jo.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "142982167196-unrt5j796q7chvlhpa1ssph3t166hog0.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.theintsuhtwe.foodforu"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:142982167196:android:f5010c6664d42d2344cb59",
+        "android_client_info": {
+          "package_name": "com.theintsuhtwe.foodforyou"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "142982167196-ns6si6974glijtg3v1785p0ff1iem7jo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAG2zP6LKY_WvpB6G7poc3TuyvYBZz-TO0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "142982167196-ns6si6974glijtg3v1785p0ff1iem7jo.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "142982167196-unrt5j796q7chvlhpa1ssph3t166hog0.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.theintsuhtwe.foodforu"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

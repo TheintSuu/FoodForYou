@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">FoodForYou</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="username">UserName</string>
+    <string name="by_clicking_sign_up_you_agre_to_the_our_terms_and_conditions">By clicking Sign up you agre to the our Terms and Conditions</string>
+</resources>

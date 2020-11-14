@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/tvCheckoutFoodItem"
+        android:layout_width="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:padding="@dimen/margin_medium"
+        android:layout_height="wrap_content"
+        android:text="Clasic Chesse Burger"
+        />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/ivClose"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/tvCheckoutFoodItem"
+        android:paddingVertical="@dimen/margin_medium"
+        android:src="@drawable/ic_baseline_close_24" />
+    <TextView
+        android:id="@+id/tvCheckoutFoodItemCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/margin_medium"
+        android:layout_toEndOf="@id/ivClose"
+        android:text="1"
+       />
+    <TextView
+        android:id="@+id/tvCheckoutFoodPrice"
+        android:layout_width="wrap_content"
+        android:layout_alignParentRight="true"
+        android:padding="@dimen/margin_medium"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"
+        android:text="16"
+        />
+    <TextView
+        android:id="@+id/tvCheckoutFood"
+        android:layout_width="wrap_content"
+        android:padding="@dimen/margin_medium"
+        android:textStyle="bold"
+        android:layout_toStartOf="@id/tvCheckoutFoodPrice"
+        android:layout_height="wrap_content"
+        android:text="$"
+        />
+</RelativeLayout>
